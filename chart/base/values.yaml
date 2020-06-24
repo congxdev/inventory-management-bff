@@ -3,9 +3,6 @@
 # Declare variables to be passed into your templates.
 global: {}
 
-# serviceUrl: "inventory-svc:80"
-connectsTo: "inventory-svc:80"
-
 replicaCount: 1
 logLevel: "debug"
 
@@ -45,6 +42,6 @@ vcsInfo:
 
 partOf: inventory
 
-connectsTo: inventory-management-svc-solution
+connectsTo: inventory-svc
 
 runtime: nodejs
